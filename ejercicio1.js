@@ -5,7 +5,7 @@ let peliculas = ["La nana mágica"];
 
 console.log(nombre, edad, altura, peliculas);
 
-let aumentoAltura = parseInt(prompt("Ingrese en m etrosla altura  aumentar"));
+let aumentoAltura = parseFloat(prompt("Ingrese en m etrosla altura  aumentar"));
 let nuevaPelicula = prompt("Ingrese nueva pelicula");
 
 altura += aumentoAltura;
