@@ -1,14 +1,15 @@
-let nombre = "Pablo";
-let edad = 39;
-let altura = 1.69;
-let peliculas = ["La nana mágica"];
+const persona = {
+    nombre:"Pablo",
+    edad:39,
+    altura:1.60,
+    peliculas:["La nana magica"]
+}
 
-console.log(nombre, edad, altura, peliculas);
+console.log(persona);
 
-let aumentoAltura = parseFloat(prompt("Ingrese en m etrosla altura  aumentar"));
-let nuevaPelicula = prompt("Ingrese nueva pelicula");
 
-altura += aumentoAltura;
-peliculas.push(nuevaPelicula);
+persona.altura += 0.25;
 
-console.log(nombre, edad, altura, peliculas);
+persona.peliculas.push("Batman");
+
+console.log(persona);
