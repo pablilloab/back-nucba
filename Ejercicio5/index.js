@@ -14,8 +14,6 @@ getDataFromApi(apiList.pokeApi).then( response => console.log(response)).catch(e
 
 
 
-
-
 function getDataFromApi (api) {
    return fetch(`${api}`).then(response => response.json())
 }
