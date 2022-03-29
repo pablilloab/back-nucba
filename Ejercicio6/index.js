@@ -43,7 +43,7 @@ if ('./miPrimerArchivoDesdeNode.txt') {
     
     fs.appendFile('miPrimerArchivoDesdeNode.txt', name, function (err) {
         if (err) throw err;
-        console.log("Archivo creado correctamente");
+        console.log("Archivo actualizado correctamente");
 
     });        
   
@@ -54,7 +54,7 @@ if ('./miPrimerArchivoDesdeNode.txt') {
         console.log("Archivo creado correctamente");
             
     } catch (error) {
-        console.log("write");
+        console.log("No se pude escribir el archivo");
     }
 
 }
