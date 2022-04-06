@@ -41,7 +41,7 @@ let name = prompt('Ingresa tu nombre ');
 
 if ('./miPrimerArchivoDesdeNode.txt') {
     
-    fs.appendFile('miPrimerArchivoDesdeNode.txt', name, function (err) {
+    fs.appendFile('miPrimerArchivoDesdeNode.txt', name+"\n", function (err) {
         if (err) throw err;
         console.log("Archivo actualizado correctamente");
 

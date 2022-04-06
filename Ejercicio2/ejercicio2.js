@@ -34,7 +34,7 @@ const pablo = new Jugador(
 });
 
 
-/*
+
 const harry = new Jugador(
   "Harry",
   "Potter",
@@ -70,6 +70,3 @@ console.log(batmanDni);
 
 
 console.log(pablo,harry,batman);
-
-*/
-
