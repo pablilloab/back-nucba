@@ -1,1 +1,1 @@
-[{"id":1,"fecha":"09-10-1990","concepto":"Cena","monto":200},{"id":2,"fecha":"02-12-2002","concepto":"Compras","monto":2402}]
+[{"id":1,"fecha":"09-10-1990","concepto":"Cena","monto":200},{"id":2,"fecha":"02-12-2002","concepto":"Compras","monto":2402},{"id":3,"fecha":"22/4/22","concepto":"Farmacia","monto":1258},{"id":4,"fecha":"15/08/22","concepto":"Cine","monto":956}]

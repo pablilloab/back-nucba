@@ -23,14 +23,19 @@ function obtenerGastos() {
 }
 
 function guardarGastos(data) {
-  const jsonString = JSON.stringify(data);
-  fs.writeFile("./gastos.js", jsonString, (err) => {
-    if (err) {
-      console.log("No se puede guardar el nuevo gasto ", err);
-    } else {
-      console.log("Gasto guardado correctamente");
-    }
-  });
+  return new Promise((resolve, reject)=>{
+    const jsonString = JSON.stringify(data);
+    fs.writeFile("./gastos.js", jsonString, (err) => {
+      if (err) {
+        reject (console.log("No se puede guardar el nuevo gasto ", err));
+      } else {
+        resolve (console.log("Gasto guardado correctamente"));
+      }
+    });
+
+  })
+  
+  
 }
 
 async function run() {
